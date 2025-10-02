@@ -7,6 +7,7 @@ variable "prefix" {
 
 variable "instances" {
   type = number
+  default = 1
 }
 
 required_providers {
